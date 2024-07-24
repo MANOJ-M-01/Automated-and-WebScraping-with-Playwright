@@ -1,7 +1,9 @@
 ### Installation
+
 ```sh
 npm init playwright@latest
 ```
+
 ```sh
 √ Do you want to use TypeScript or JavaScript? · JavaScript
 √ Where to put your end-to-end tests? · tests
@@ -39,10 +41,26 @@ And check out the following files:
 ```
 
 Run a test
+
 ```sh
 npx playwright test
 ```
+
 View Test report
+
 ```sh
 npx playwright show-report
 ```
+
+https://playwright.dev/docs/screenshots
+
+```sh
+npm run snap
+(or)
+node take-screenshots.js
+```
+
+### Full page screenshot not fully renderd
+
+playwright screenshot page not loaded  
+https://github.com/microsoft/playwright/issues/620

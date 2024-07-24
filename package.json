@@ -2,7 +2,9 @@
   "name": "automated-and-webscraping-with-playwright",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "snap":"node take-screenshots"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
