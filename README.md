@@ -37,3 +37,12 @@ And check out the following files:
   - .\tests-examples\demo-todo-app.spec.js - Demo Todo App end-to-end tests
   - .\playwright.config.js - Playwright Test configuration
 ```
+
+Run a test
+```sh
+npx playwright test
+```
+View Test report
+```sh
+npx playwright show-report
+```
