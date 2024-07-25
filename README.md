@@ -1,3 +1,7 @@
+## Description
+
+This repository contains a collection of scripts and tools for web scraping, screenshotting, and automated testing using Playwright.
+
 ### Installation
 
 ```sh
@@ -40,7 +44,7 @@ And check out the following files:
   - .\playwright.config.js - Playwright Test configuration
 ```
 
-Run a test
+## Run a test
 
 ```sh
 npx playwright test
@@ -54,13 +58,26 @@ npx playwright show-report
 
 https://playwright.dev/docs/screenshots
 
+## Run scripts
+
+### For Screenshots
+
 ```sh
 npm run snap
-(or)
-node take-screenshots.js
 ```
 
 ### Full page screenshot not fully renderd
 
 playwright screenshot page not loaded  
 https://github.com/microsoft/playwright/issues/620
+
+# Screenshots
+
+| **Count** | **Device** | **Animation** | **Scrolling** | **Screenshot**                                                                                     |
+| --------- | ---------- | ------------- | ------------- | -------------------------------------------------------------------------------------------------- |
+| 1         | Mobile     | Enabled       | Disabled      | <img src="./sample/snap-phone-1721901846171.png" alt="Mobile Animation No Scroll" height="200">    |
+| 2         | Web        | Enabled       | Disabled      | <img src="./sample/snap-web-1721901846913.png" alt="Web Animation No Scroll" height="200">         |
+| 3         | Mobile     | Disabled      | Disabled      | <img src="./sample/snap-phone-1721901894589.png" alt="Mobile No Animation No Scroll" height="200"> |
+| 4         | Web        | Disabled      | Disabled      | <img src="./sample/snap-web-1721901895389.png" alt="Web No Animation No Scroll" height="200">      |
+| 5         | Mobile     | Enabled       | Enabled       | <img src="./sample/snap-phone-1721901983319.png" alt="Mobile Animation With Scroll" height="200">  |
+| 6         | Web        | Enabled       | Enabled       | <img src="./sample/snap-web-1721901984227.png" alt="Web Animation With Scroll" height="200">       |
