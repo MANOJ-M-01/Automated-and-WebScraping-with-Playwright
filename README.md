@@ -66,6 +66,12 @@ https://playwright.dev/docs/screenshots
 npm run snap
 ```
 
+### For Scraping
+
+```sh
+npm run scrape
+```
+
 ### Full page screenshot not fully renderd
 
 playwright screenshot page not loaded  

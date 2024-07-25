@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "snap": "node scripts/take-screenshots"
+    "snap": "node scripts/take-screenshots",
+    "scrape": "node scripts/scrape-website"
   },
   "keywords": [],
   "author": "",
